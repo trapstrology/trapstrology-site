@@ -1,0 +1,1 @@
+jsonc<br>{<br> "name":"trapstrology-site",<br> "version":"1.0.0",<br> "scripts":{<br> "dev":"next dev",<br> "build":"next build",<br> "start":"next start"<br> },<br> "dependencies":{<br> "next":"^13.5.0",<br> "react":"^18.2.0",<br> "react-dom":"^18.2.0",<br> "stripe":"^12.0.0",<br> "sendgrid":"^7.10.0",<br> "mailchimp-marketing":"^3.0.76",<br> "react-youtube":"^11.0.0"<br> }<br>}
