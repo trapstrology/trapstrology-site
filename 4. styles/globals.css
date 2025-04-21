@@ -1,0 +1,41 @@
+:root {
+  --color-primary: #F97316;        /* Trapstrology Orange */
+  --color-indigo: #342A69;         /* Cosmic Indigo */
+  --color-teal: #14B8A6;           /* Water Teal */
+  --color-neutral-light: #FFF9F0;  /* Soft cream bg */
+  --color-neutral-dark: #333333;   /* Charcoal text */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Avenir', sans-serif;
+  background: var(--color-neutral-light);
+  color: var(--color-neutral-dark);
+}
+
+a {
+  color: var(--color-indigo);
+  text-decoration: none;
+}
+
+button {
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+
+header, footer {
+  text-align: center;
+  margin: 2rem 0;
+}
